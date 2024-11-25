@@ -2,6 +2,7 @@
   "name": "app-novel",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tviet77.github.io/app-novel/", 
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -12,6 +13,7 @@
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.49",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -23,6 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build", 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
