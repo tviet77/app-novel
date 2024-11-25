@@ -1,25 +1,25 @@
 import React, { useState, useEffect } from 'react';
 // import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/solid';
-import { AcademicCapIcon } from '@heroicons/react/24/outline';
+import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
 
 const slides = [
   {
     id: 1,
     title: 'Đấu La Đại Lục',
     description: 'Hành trình trở thành Đấu Thánh của Đường Tam',
-    image: '/placeholder.svg?height=400&width=800',
+    image: 'https://cdn.tgdd.vn/Files/2023/06/13/1534153/ip-130623-164803.jpg',
   },
   {
     id: 2,
     title: 'Tôi Thăng Cấp Một Mình',
     description: 'Cuộc phiêu lưu của người chơi cô độc trong game thực tế ảo',
-    image: '/placeholder.svg?height=400&width=800',
+    image: 'https://images.fptplay53.net/media/OTT/VOD/2023/12/28/solo-leveling-toi-thang-cap-mot-minh-phan-1-fpt-play-1703737812530_Landscape.jpg',
   },
   {
     id: 3,
     title: 'Đế Bá',
     description: 'Hành trình của Mạc Phàm trong thế giới phép thuật',
-    image: '/placeholder.svg?height=400&width=800',
+    image: 'https://zingaudio.org/wp-content/uploads/2020/10/de-ba.jpg',
   },
 ];
 
@@ -35,7 +35,7 @@ const Slider: React.FC = () => {
   };
 
   useEffect(() => {
-    const timer = setInterval(nextSlide, 5000);
+    const timer = setInterval(nextSlide, 7000);
     return () => clearInterval(timer);
   }, []);
 
@@ -63,13 +63,13 @@ const Slider: React.FC = () => {
         onClick={prevSlide}
         className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-2 rounded-full"
       >
-        <AcademicCapIcon className="w-6 h-6" />
+        <ChevronLeftIcon className="w-6 h-6" />
       </button>
       <button
         onClick={nextSlide}
         className="absolute top-1/2 right-4 transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-2 rounded-full"
       >
-        <AcademicCapIcon className="w-6 h-6" />
+        <ChevronRightIcon className="w-6 h-6" />
       </button>
     </div>
   );
