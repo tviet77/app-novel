@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/app-novel/static/css/main.c9f776a6.css",
+    "main.js": "/app-novel/static/js/main.c3f7b13f.js",
+    "index.html": "/app-novel/index.html",
+    "main.c9f776a6.css.map": "/app-novel/static/css/main.c9f776a6.css.map",
+    "main.c3f7b13f.js.map": "/app-novel/static/js/main.c3f7b13f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9f776a6.css",
+    "static/js/main.c3f7b13f.js"
+  ]
+}
