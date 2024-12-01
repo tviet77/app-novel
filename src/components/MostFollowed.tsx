@@ -9,11 +9,11 @@ interface Novel {
 }
 
 const mostFollowedNovels: Novel[] = [
-  { id: 1, title: 'Đấu Phá Thương Khung', cover: '/placeholder.svg?height=60&width=40', followers: 100000 },
-  { id: 2, title: 'Toàn Chức Pháp Sư', cover: '/placeholder.svg?height=60&width=40', followers: 95000 },
-  { id: 3, title: 'Nguyên Tôn', cover: '/placeholder.svg?height=60&width=40', followers: 90000 },
-  { id: 4, title: 'Đế Bá', cover: '/placeholder.svg?height=60&width=40', followers: 85000 },
-  { id: 5, title: 'Vũ Động Càn Khôn', cover: '/placeholder.svg?height=60&width=40', followers: 80000 },
+  { id: 1, title: 'Đấu Phá Thương Khung', cover: 'https://i.pinimg.com/236x/01/82/54/018254ac690357e1f9d44165a343845f.jpg', followers: 100000 },
+  { id: 2, title: 'Toàn Chức Pháp Sư', cover: 'https://i.pinimg.com/236x/01/82/54/018254ac690357e1f9d44165a343845f.jpg', followers: 95000 },
+  { id: 3, title: 'Nguyên Tôn', cover: 'https://i.pinimg.com/236x/01/82/54/018254ac690357e1f9d44165a343845f.jpg', followers: 90000 },
+  { id: 4, title: 'Đế Bá', cover: 'https://i.pinimg.com/236x/01/82/54/018254ac690357e1f9d44165a343845f.jpg', followers: 85000 },
+  { id: 5, title: 'Vũ Động Càn Khôn', cover: 'https://i.pinimg.com/236x/01/82/54/018254ac690357e1f9d44165a343845f.jpg', followers: 80000 },
 ];
 
 const MostFollowed: React.FC = () => {

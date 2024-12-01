@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const topNovels = [
-  { id: 1, title: 'Đấu Phá Thương Khung', author: 'Thiên Tàm Thổ Đậu', cover: '/placeholder.svg?height=300&width=200', rating: 4.8 },
-  { id: 2, title: 'Toàn Chức Pháp Sư', author: 'Mặc Thương Trần Đồ', cover: '/placeholder.svg?height=300&width=200', rating: 4.7 },
-  { id: 3, title: 'Nguyên Tôn', author: 'Thiên Tằm Thổ Đậu', cover: '/placeholder.svg?height=300&width=200', rating: 4.6 },
-  { id: 4, title: 'Đế Bá', author: 'Yếm Bút Tiêu Sinh', cover: '/placeholder.svg?height=300&width=200', rating: 4.5 },
+  { id: 1, title: 'Đấu Phá Thương Khung', author: 'Thiên Tàm Thổ Đậu', cover: 'https://i.pinimg.com/236x/01/82/54/018254ac690357e1f9d44165a343845f.jpg', rating: 4.8 },
+  { id: 2, title: 'Toàn Chức Pháp Sư', author: 'Mặc Thương Trần Đồ', cover: 'https://i.pinimg.com/236x/01/82/54/018254ac690357e1f9d44165a343845f.jpg', rating: 4.7 },
+  { id: 3, title: 'Nguyên Tôn', author: 'Thiên Tằm Thổ Đậu', cover: 'https://i.pinimg.com/236x/01/82/54/018254ac690357e1f9d44165a343845f.jpg', rating: 4.6 },
+  { id: 4, title: 'Đế Bá', author: 'Yếm Bút Tiêu Sinh', cover: 'https://i.pinimg.com/236x/01/82/54/018254ac690357e1f9d44165a343845f.jpg', rating: 4.5 },
 ];
 
 const TopNovels: React.FC = () => {

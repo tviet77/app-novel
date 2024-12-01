@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const newNovels = [
-  { id: 1, title: 'Vạn Cổ Thần Đế', author: 'Phi Thiên Ngư', cover: '/placeholder.svg?height=300&width=200', genre: 'Tiên Hiệp' },
-  { id: 2, title: 'Đô Thị Chí Tôn', author: 'Mặc Hương Đồng Khứu', cover: '/placeholder.svg?height=300&width=200', genre: 'Đô Thị' },
-  { id: 3, title: 'Trọng Sinh Đô Thị Tu Tiên', author: 'Lục Đạo Trọng Sinh', cover: '/placeholder.svg?height=300&width=200', genre: 'Tu Tiên' },
-  { id: 4, title: 'Tối Cường Thần Thoại Đế Hoàng', author: 'Thần Đọa Trần Uyên', cover: '/placeholder.svg?height=300&width=200', genre: 'Huyền Huyễn' },
+  { id: 1, title: 'Vạn Cổ Thần Đế', author: 'Phi Thiên Ngư', cover: 'https://i.pinimg.com/236x/01/82/54/018254ac690357e1f9d44165a343845f.jpg', genre: 'Tiên Hiệp' },
+  { id: 2, title: 'Đô Thị Chí Tôn', author: 'Mặc Hương Đồng Khứu', cover: 'https://i.pinimg.com/236x/01/82/54/018254ac690357e1f9d44165a343845f.jpg', genre: 'Đô Thị' },
+  { id: 3, title: 'Trọng Sinh Đô Thị Tu Tiên', author: 'Lục Đạo Trọng Sinh', cover: 'https://i.pinimg.com/236x/01/82/54/018254ac690357e1f9d44165a343845f.jpg', genre: 'Tu Tiên' },
+  { id: 4, title: 'Tối Cường Thần Thoại Đế Hoàng', author: 'Thần Đọa Trần Uyên', cover: 'https://i.pinimg.com/236x/01/82/54/018254ac690357e1f9d44165a343845f.jpg', genre: 'Huyền Huyễn' },
 ];
 
 const NewNovels: React.FC = () => {

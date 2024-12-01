@@ -5,7 +5,7 @@ const Banner: React.FC = () => {
   return (
     <div className="relative h-[200px] rounded-xl overflow-hidden mb-8">
       <img
-        src="/placeholder.svg?height=200&width=1200"
+        src="https://blog.tuchangioi.net/content/images/size/w600/2021/03/anh-dep-3d-kiem-hiep-12banner.jpg"
         alt="Banner quảng cáo"
         className="w-full h-full object-cover"
       />

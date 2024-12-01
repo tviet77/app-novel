@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 // import { FacebookIcon, TwitterIcon, InstagramIcon } from '@heroicons/react/24/outline';
 import { AcademicCapIcon } from '@heroicons/react/24/outline';
+import { HandRaisedIcon, HandThumbDownIcon, HandThumbUpIcon } from '@heroicons/react/24/solid';
 
 
 const Footer: React.FC = () => {
@@ -10,7 +11,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">NovelNest</h3>
+            <h3 className="text-lg font-semibold mb-4">Novel Viet</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Trang web đọc truyện novel online hàng đầu Việt Nam.
             </p>
@@ -36,13 +37,7 @@ const Footer: React.FC = () => {
             <h4 className="text-md font-semibold mb-4">Kết nối với chúng tôi</h4>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-primary">
-                <AcademicCapIcon className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary">
-                <AcademicCapIcon className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary">
-                <AcademicCapIcon className="w-6 h-6" />
+                <HandThumbUpIcon className="w-6 h-6" />
               </a>
             </div>
           </div>
