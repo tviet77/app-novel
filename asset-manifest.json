@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/app-novel/static/css/main.f3c98296.css",
-    "main.js": "/app-novel/static/js/main.fa2285a6.js",
+    "main.js": "/app-novel/static/js/main.c94a7b97.js",
     "index.html": "/app-novel/index.html",
     "main.f3c98296.css.map": "/app-novel/static/css/main.f3c98296.css.map",
-    "main.fa2285a6.js.map": "/app-novel/static/js/main.fa2285a6.js.map"
+    "main.c94a7b97.js.map": "/app-novel/static/js/main.c94a7b97.js.map"
   },
   "entrypoints": [
     "static/css/main.f3c98296.css",
-    "static/js/main.fa2285a6.js"
+    "static/js/main.c94a7b97.js"
   ]
 }
